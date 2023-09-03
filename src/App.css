@@ -1,0 +1,52 @@
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.container {
+  columns: 3;
+  column-gap: 5px;
+  width: 80%;
+  margin: 2px auto;
+}
+
+.container img {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.search-box > button {
+  border: none;
+  background: white;
+  color: black;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: -30px;
+  height: 35px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.search-box > input {
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: white;
+  color: #000;
+  outline: 0;
+  border: none;
+  padding-left: 10px;
+}
